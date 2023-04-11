@@ -1,0 +1,348 @@
+/* body {
+  background-color: #303030;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+}
+.container > div {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.child-container {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: yellow;
+}
+.child-container > div {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.card-box-shadow {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card1 {
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: bisque;
+  grid-area: d;
+  min-width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.category {
+  margin-top: 20px;
+}
+
+.card1-img {
+  object-fit: cover;
+}
+
+.card1-content {
+  padding: 16px;
+}
+
+.card1-title {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card1-description {
+  margin: 0 0 16px;
+  font-size: 16px;
+  color: #666666;
+}
+
+.card1-button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ff6347;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.card1-button:hover {
+  background-color: #ff4020;
+}
+
+.top-section {
+  display: flex;
+}
+.name {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.card2 {
+  grid-area: j;
+  color: #ffffff;
+}
+.reservation-card {
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  background-color: #5559ab;
+}
+
+.reservation-card-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.reservation-card-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.reservation-btn {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.about-us-card {
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  background-color: #5559ab;
+}
+
+.aboutus {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+.restaurant-name {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.restaurant-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contact-info {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.card4 {
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+  grid-area: p;
+  background-image: url("images/review.jpeg");
+  height: 300px;
+  width: 500px;
+}
+.testimonial-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.testimonial-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.testimonial-quote {
+  font-size: 16px;
+  color: #777;
+}
+.patrick-img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+}
+
+.card5 {
+  background-color: black;
+}
+
+.special-deals-card {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  background-image: url("images/deals.jpeg");
+}
+
+.special-deals-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.special-deals-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.special-deal-item {
+  margin-bottom: 20px;
+}
+
+.special-deal-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.special-deal-description {
+  font-size: 14px;
+  color: black;
+}
+.special-deal-btn {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: inherit;
+  border: 0;
+  line-height: 1;
+  background: none;
+  padding: 0.75em 1.5em;
+}
+
+.btn-3 {
+  --clr: #5559ab;
+  --outline: 2px solid white;
+  border: 2px solid var(--clr);
+  background: var(--clr);
+  color: white;
+  outline: var(--outline);
+  transition: outline-offset 200ms ease;
+}
+
+.btn-3:hover,
+.btn-3:focus {
+  outline: var(--outline);
+  outline-offset: -6px;
+}
+
+.btn-2 {
+  --clr: #ffffff;
+  --outline: 2px solid #5559ab;
+  border: 2px solid var(--clr);
+  background: var(--clr);
+  color: #5559ab;
+  outline: var(--outline);
+  transition: outline-offset 200ms ease;
+}
+
+.btn-2:hover,
+.btn-2:focus {
+  outline: var(--outline);
+  outline-offset: -6px;
+}
+
+.footer {
+  width: 100vw;
+  min-height: 10vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .child {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer .child h5 {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.footer .child .card {
+  background-color: #5559ab;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+} */
