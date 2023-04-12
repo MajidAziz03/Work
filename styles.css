@@ -66,25 +66,25 @@
     -webkit-box-shadow: 0px 3px 15px -7px #000000;
     box-shadow: 0px 3px 15px -7px #000000;
     margin-bottom: 12px;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(122,36,36,1) 100%, rgba(0,212,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(122, 36, 36, 1) 100%, rgba(0, 212, 255, 1) 100%);
 }
 
 .left-content {
-flex: 3;
-height: 100%;
-display: flex;
-flex-direction: column;
-padding: 12px 22px;
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 22px;
 }
 
 .right-content {
     flex: 2;
-height: 100%;
-padding-top: 22px;
-color: white;
-display: flex;
-align-items: center;
+    height: 100%;
+    padding-top: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -147,8 +147,8 @@ align-items: center;
 
 
 .bottom-content {
-flex: 0.5;
-padding-left: 135px;
+    flex: 0.5;
+    padding-left: 135px;
 }
 
 
@@ -321,16 +321,129 @@ ul {
 
 .categoryContainer {
     width: 100%;
-    height: 90vh;
+    /* height: 90vh; */
     /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 12px;
+    margin-bottom: 22px;
+    /* position: relative; */
+}
+
+.modal-category1 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.modal-category2 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-category3 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-category4 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-category-active1 {
+    display: none;
+}
+
+.modal-category-active2 {
+    display: none;
+}
+
+.modal-category-active3 {
+    display: none;
+}
+
+.modal-category-active4 {
+    display: none;
+}
+
+.card-cat.caty {
+    width: 600px;
+    height: 500px;
+}
+
+.cat-img.caty-img {
+    width: 100px;
+    height: 100px;
+    bottom: -42px;
+    left: 22px;
+}
+
+.cat-subHeading.caty-sub {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.cat-heading.caty-head {
+    font-size: 28px;
+}
+
+.cat-desc.caty-desc {
+    font-size: 16px;
+}
+
+.caty-order {
+    padding: 10px 12px;
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    width: 130px;
+}
+
+
 .holder-category {
     width: 1300px;
-    height: 80vh;
+    /* height: 40vh; */
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -348,6 +461,7 @@ ul {
     -webkit-box-shadow: 0px 3px 7px -7px #000000;
     box-shadow: 0px 3px 7px -7px #000000;
     border: 0.5px solid #dbdada9d;
+    cursor: pointer;
 
 }
 
@@ -421,8 +535,8 @@ ul {
     height: 65vh;
     display: flex;
     margin-top: 22px;
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(122,36,36,1) 100%, rgba(0,212,255,1) 100%);
-color: rgb(232, 225, 225);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(122, 36, 36, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(232, 225, 225);
 }
 
 .left-footer {
@@ -507,7 +621,7 @@ h1 {
 .modal-active {
     display: none;
     transition: all 5s ease;
-} 
+}
 
 
 .box {
@@ -599,4 +713,4 @@ h1 {
 .btn-book:hover {
     transform: scale(1.1);
     color: #f8f4f4;
-} 
+}
