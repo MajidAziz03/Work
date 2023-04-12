@@ -438,6 +438,7 @@ ul {
     outline: none;
     border-radius: 3px;
     width: 130px;
+    cursor: pointer;
 }
 
 
@@ -713,4 +714,41 @@ h1 {
 .btn-book:hover {
     transform: scale(1.1);
     color: #f8f4f4;
+}
+
+.cross-cat1 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 22px;
+    margin-bottom: -22px;
+    padding-top: 22px;
+    font-size: 18px;
+}
+.cross-cat2 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 22px;
+    margin-bottom: -22px;
+    padding-top: 22px;
+    font-size: 18px;
+}
+.cross-cat3 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 22px;
+    margin-bottom: -22px;
+    padding-top: 22px;
+    font-size: 18px;
+}
+.cross-cat4 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 22px;
+    margin-bottom: -22px;
+    padding-top: 22px;
+    font-size: 18px;
 }
